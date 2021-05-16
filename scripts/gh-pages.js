@@ -1,7 +1,7 @@
 var ghpages = require('gh-pages');
 
 ghpages.publish(
-	'__sapper__/export', // <-- replace yourproject with your repo name
+	'__sapper__/export/svelte-sapper', // <-- replace yourproject with your repo name
 	{
 		branch: 'gh-pages',
 		repo: 'https://github.com/bradhave94/svelte-sapper.git',
